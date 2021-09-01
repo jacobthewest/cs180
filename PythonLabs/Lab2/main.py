@@ -23,5 +23,7 @@ for word in wordList:
     except:
         wordDict[word] = 1
 
+output_dict = {}
+
 with open('word-counts.json', 'w', encoding='utf-8') as f:
     json.dump(wordDict, f, ensure_ascii=False, indent=4)
