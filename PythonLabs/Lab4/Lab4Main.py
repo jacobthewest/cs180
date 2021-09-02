@@ -11,6 +11,19 @@ lowestNumber = 1000000000000000000000000000
 highestNumber = -1000000000000000000000000000
 runningSum = 0
 
+# Calculate the mean
 for num in input:
-    pass
+    runningSum += num
 
+mean = runningSum / len(input)
+
+# Calculate empirical variance
+runningSum = 0
+for num in input:
+    temp = (num - mean)**2
+    runningSum += temp
+
+empiricalVariance = runningSum / len(input)
+
+print('mean = ' + str(mean))
+print('var = ' + str(empiricalVariance))

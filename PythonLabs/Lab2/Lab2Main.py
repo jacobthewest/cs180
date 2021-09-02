@@ -2,7 +2,7 @@ import json
 import string
 import argparse
 
-print('USAGE EXAMPLE: python Lab2Main.py --string "This is a string"')
+print("USAGE EXAMPLE: python Lab2Main.py --string this is a string")
 parser = argparse.ArgumentParser()
 parser.add_argument('--string', '--arg', nargs='*', type=str, required=True)
 args = parser.parse_args()

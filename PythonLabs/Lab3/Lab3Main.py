@@ -5,10 +5,10 @@
 
 import argparse
 
+print("USAGE EXAMPLE: python Lab3Main.py --n 4")
 parser = argparse.ArgumentParser()
-parser.add_argument('text', type=int, help='Input n')
+parser.add_argument('--n', '--arg', nargs=1, type=int, required=True)
 args = parser.parse_args()
-input = int(args.text)
 
 def cube(n):
     totalToReturn = 0
@@ -23,4 +23,4 @@ def cube(n):
             totalToReturn += result
     return totalToReturn
 
-print(cube(input))
+print(cube(args.n[0]))
