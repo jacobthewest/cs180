@@ -1,4 +1,4 @@
-"""Price""","""address""","""Local_area""","""zipcode""","""beds""","""baths""","""sqft""","""url"""
+Price,address,Local_area,zipcode,beds,baths,sqft,url
 229900,11444 N 28th Dr APT 14,Phoenix,85029,2,3,1498,https://www.zillow.com/homedetails/11444-N-28th-Dr-APT-14-Phoenix-AZ-85029/7750068_zpid/
 294900,107 W Camino Rancho Lucido,Sahuarita,85629,4,3,1951,https://www.zillow.com/homedetails/107-W-Camino-Rancho-Lucido-Sahuarita-AZ-85629/59833790_zpid/
 683100,3320 E Briarwood Ter,Phoenix,85048,4,4,3110,https://www.zillow.com/homedetails/3320-E-Briarwood-Ter-Phoenix-AZ-85048/67759175_zpid/
